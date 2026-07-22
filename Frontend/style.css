@@ -1,0 +1,98 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+    
+}
+header {
+    background: #222;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+nav {
+    position: sticky;
+    top: 0;
+    background: #444;
+    padding: 0.5rem;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+
+}
+section {
+    background: rgb(148, 98, 10);
+    padding: 20px;
+    border-radius: 5px;
+    color: beige;
+    border: 5px outset #ccc;
+    width: 50%;
+    display: grid;
+    place-items: center; /* Centers everything */
+    margin: auto;
+}
+h2 {
+    display : inline;
+    padding-left: 10px;
+    border-bottom: 2px;
+}
+
+h3 {
+    display : inline;
+}
+ul {
+    list-style: square;
+    padding-left: 20px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+    color: #fff;
+    margin-top: 20px;
+}
+
+details {
+  /* Prevent content from instantly disappearing on close */
+  transition: content-visibility 0.5s allow-discrete;
+}
+
+details::details-content {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: content-visibility 0.5s allow-discrete, 
+              opacity 0.5s, 
+              height 0.5s;
+}
+
+details[open]::details-content {
+  opacity: 1;
+  height: auto;
+}
+
+.project {
+    padding-top: 20;
+    padding: 20px;
+    background-color:#444;
+    color:aquamarine;
+    margin-bottom: 15px;
+}
+html { 
+    scroll-behavior: smooth;
+    interpolate-size: allow-keywords;
+ }
