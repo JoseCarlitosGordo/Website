@@ -35,12 +35,12 @@ nav a:hover {
 
 }
 section {
-    background: rgb(148, 98, 10);
+    background: rgb(11, 82, 85);
     padding: 20px;
     border-radius: 5px;
     color: beige;
     border: 5px outset #ccc;
-    width: 50%;
+    width: 25%;
     display: grid;
     place-items: center; /* Centers everything */
     margin: auto;
