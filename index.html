@@ -13,13 +13,13 @@
     <p>Third Year Software Engineering Student</p>
 </header>
 
-<nav>
+<!-- <nav>
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
     <a href="#education">Education</a>
     <a href="#contact">Contact</a>
-</nav>
+</nav> -->
 
 <div class="container">
 
@@ -28,17 +28,21 @@
             <summary><h2>About Me</h2></summary>
             <p>
                 Hello! I'm a software engineering student passionate about building efficient,
-                scalable applications and learning new technologies.
+                scalable applications and learning new technologies.and game systems in
+                Go, C++ and Python. My interest in software engineering began through my love of video games and the game development process, eventually
+                growing into a passion for developing practical software. I’m especially interested in systems design and working in teams to develop software 
+                that can be used for the benefit of all.
+
             </p>
         </details>
     </section>
     <section id="skills">
         <details>
-            <summary><h2>Skills</h2></summary>
+            <summary><h2>Core Skills</h2></summary>
         <ul>
             <li>Programming: Python, Go, C++, JavaScript</li>
             <li>Web: HTML, CSS, React</li>
-            <li>Tools: Git </li>
+            <li>Tools: Git (Github, Gitlab), Linux (WSL) </li>
             <li>Databases: SQL Server, SQLite, MongoDB, Relational Database Design</li>
         </ul>
              
@@ -49,13 +53,31 @@
     <section id="projects">
         <details>
                 <summary> <h2>Projects</h2></summary>
-                <div class="project">
+                <div class = "projectList">
+                    <div class="project">
                     <details>
-                        <summary> <h3>Chat Server</h3> </summary>
-                        <p>Short description of your project.</p>
-                        <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+                        <summary> <h3><a href="https://github.com/JoseCarlitosGordo/ChatServer">Chat Server</a></h3> </summary>
+                        <p>A Chat Server and Client that has been developed as a 
+                            private chat log that can be shared between friends. Other front end 
+                            developers can contribute to the chat server and make their own clients.
+                        </p>
+                        <p><strong>Tech:</strong> Go, TCP, Concurrent Programming</p>
                     </details>
                 </div>
+
+                <div class="project">
+                    <details>
+                        <summary> <h3><a href="https://github.com/JoseCarlitosGordo/Chip-8"> Chip-8 Emulator </a></h3> </summary>
+                        <p>An Emulator programmed using python's pygame language to read opcodes from a chip-8 file and 
+                            emulate the operations that the opcodes map to. Was driven to complete this project due to 
+                            my prior interest in games and the emulation process
+                        </p>
+                        <p><strong>Tech:</strong> Python, Pygame</p>
+                    </details>
+                </div>
+
+                </div>
+                
         </details>
         
 
@@ -68,6 +90,9 @@
                 <p><strong>Adelaide University</strong></p>
                 <p>Bachelor of Software Engineering (Honours)</p>
                 <p>Expected Graduation: 2027</p>
+                <p> Learnt a lot in my previous years of university, including basic DSA concepts, OOP principles,
+                    Database Management, AWS familiarity and security concepts such as password salting, that are applicable in many different software applications.
+                </p>
         </details>
         
        
@@ -84,11 +109,12 @@
        
     </section>
 
-</div>
 
-<footer>
+
+<!-- <footer>
     <p>&copy; 2026 Jose Carlitos Gordo</p>
-</footer>
+</footer> -->
+</div>
 
 </body>
 </html>
