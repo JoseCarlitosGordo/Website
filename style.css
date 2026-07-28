@@ -41,12 +41,12 @@ nav a:hover {
 }
 
 section {
-    background: rgb(11, 82, 85);
+    background: rgb(49, 16, 109);
     padding: 10px;
     border-radius: 5px;
     color: beige;
     border: 5px outset #ccc;
-    width: 33%;
+    width: 20%;
     display: grid;
     margin-bottom: 70px;
     /* place-items: center; */
@@ -103,8 +103,8 @@ details[open]::details-content {
 .project {
     padding-top: 20;
     border-radius: 5px;
-    background-color:#0f1c41;
-    color:aquamarine;
+    background-color:#6c117e;
+    color:rgb(191, 211, 204);
     margin-bottom: 15px;
     width: 100%;
     
